@@ -87,7 +87,7 @@ class User{
 		$dbres->bindParam(':shatoken', $shatoken);
 		$dbres->bindParam(':mail', $mail);
 		$dbres->execute();
-		$link = "http://localhost/Projet/changepassword.php?token=".$token."&userid=".$userid; // test en local
+		$link = "http://localhost/Junia-2025/changepassword.php?token=".$token."&userid=".$userid; // test en local
 		//$link = "https://qdeclercq.vvvpedago.enseirb-matmeca.fr/Projet/changepassword.php?token=".$token."&userid=".$userid; // test en vrai
 		$to = $mail; //connect with pdo to retrieve user email
 		$subject = "Your Password";
