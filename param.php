@@ -1,8 +1,8 @@
 <?php
-	$base = 'site';
+	$base = 'croupier';
 	$pass = 'pass';
-	$user = 'toto';
-	$host = 'localhost';
+	$user = 'root';
+	$host = 'mysql';
 
 	//$base = 'qdeclercq';
 	//$pass = '90su39vi';
